@@ -1,13 +1,9 @@
-# Getting_and_Cleaning_Data_Course_Project
-This repo was created for the final course project
-in the Getting and Cleaning Data Coursera Course.
-This repo contains:
-1) Two text files from the smartphone dataset
-	README.txt and features_info.txt
-	where README.txt explains the experiment
-	and features_info.txt explains the original
-	variables in the dataset
-2) An R script, run_analysis.R, that produces a
-	tidy dataset
-3) A codebook, that explicitly tells the steps used
-	to produce the tidy dataset
+# Getting and Cleaning Data Course Project
+
+This repo was created for the final course project in the Getting and Cleaning Data Coursera Course.
+Here's what you'll find inside this repo:
+* A CODEBOOK.md file that contains the study design and codebook.
+* A run_analysis.R script that creates the tidy dataset from the raw dataset.
+* The tidy dataset saved as tidy.csv, because .csv files look better than .txt files.
+* All the raw data files in the UCI HAR Dataset directory.
+I hope you like what you see.
