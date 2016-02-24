@@ -79,8 +79,8 @@ run_analysis <- function(){
   
   #Create the tidy dataset
   library(dplyr)
-  df <- tbl_df(df1)
-  tidy <- summarize_each(group_by(df1,activity,subject),funs(mean))
+  df <- tbl_df(df)
+  tidy <- summarize_each(group_by(df,activity,subject),funs(mean))
   
   #Edit measurements names to emphasize the means summary
   names(tidy)[3:68] <- paste0('Mean of ',names(tidy)[3:68])
